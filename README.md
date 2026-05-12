@@ -1,5 +1,4 @@
 # Tugas-QR-Decomposition-Matriks-2x2-dengan-Python
-# QR Decomposition Matriks 2x2 dengan Python
 
 ## Deskripsi
 
