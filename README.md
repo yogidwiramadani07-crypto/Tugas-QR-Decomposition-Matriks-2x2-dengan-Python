@@ -21,7 +21,7 @@ dengan:
 Link Google Colab:
 
 ```txt
-[https://colab.research.google.com/](https://colab.research.google.com/drive/1Vbmj4clRE1zzrZ2_ugG8FVDETWxaNfVC?usp=sharing)
+https://colab.research.google.com/](https://colab.research.google.com/drive/1Vbmj4clRE1zzrZ2_ugG8FVDETWxaNfVC?usp=sharing)
 ```
 
 ---
