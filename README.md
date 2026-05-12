@@ -37,137 +37,85 @@ A =
 ```
 ---
 
-# Langkah 1 — Membentuk Vektor \(a_1\)
+# Langkah 1 — Membentuk Vektor
 
 Vektor kolom:
-
-a
-1
-	​
-
-=[
-2
-1
-	​
-
-]a
-2
-	​
-
-=[
-1
-2]
-
+```
+a 1 =[2
+	  1​]
+a 2 =[1
+      2]
+```
 Panjang vektor:
 
-\[
-||a_1|| = \sqrt{2^2 + 1^2}
-\]
-
-\[
-||a_1|| = \sqrt{5}
-\]
-
+```text
+||a1|| = √5
+```
 Normalisasi vektor:
 
-\[
-q_1 =
-\frac{a_1}{||a_1||}
-\]
+```text
+q1 =
+[2/√5
+ 1/√5]
+```
 
-\[
-q_1 =
-\begin{bmatrix}
-\frac{2}{\sqrt{5}} \\
-\frac{1}{\sqrt{5}}
-\end{bmatrix}
-\]
 
----
-
-# Langkah 2 — Membentuk Vektor \(v_2\)
-
-\[
-a_2 =
-\begin{bmatrix}
-1 \\
-2
-\end{bmatrix}
-\]
+# Langkah 2 — Membentuk Vektor v2
 
 Rumus:
 
-\[
-v_2 = a_2 - (a_2 \cdot q_1)q_1
-\]
+```text
+v2 = a2 - (a2 · q1)q1
+```
+Dot product:
+
+```text
+a2 · q1 = 4/√5
+```
 
 Hasil:
 
-\[
-v_2 =
-\begin{bmatrix}
--\frac{3}{5} \\
-\frac{6}{5}
-\end{bmatrix}
-\]
+```text
+v2 =
+[-3/5
+  6/5]
+```
 
----
 
-# Langkah 3 — Membentuk \(q_2\)
+# Langkah 3 — Membentuk q2
 
 Panjang vektor:
 
-\[
-||v_2|| =
-\sqrt{
-\left(-\frac{3}{5}\right)^2 +
-\left(\frac{6}{5}\right)^2
-}
-\]
-
-\[
-||v_2|| =
-\frac{3}{\sqrt{5}}
-\]
+```text
+||v2|| = 3/√5
+```
 
 Normalisasi:
 
-\[
-q_2 =
-\frac{v_2}{||v_2||}
-\]
+```text
+q2 =
+[-1/√5
+  2/√5]
+```
 
-\[
-q_2 =
-\begin{bmatrix}
--\frac{1}{\sqrt{5}} \\
-\frac{2}{\sqrt{5}}
-\end{bmatrix}
-\]
-
----
 
 # Matriks Q
 
-\[
+```text
 Q =
-\begin{bmatrix}
-\frac{2}{\sqrt{5}} & -\frac{1}{\sqrt{5}} \\
-\frac{1}{\sqrt{5}} & \frac{2}{\sqrt{5}}
-\end{bmatrix}
-\]
+[ 2/√5   -1/√5
+  1/√5    2/√5]
+```
 
 ---
 
 # Matriks R
 
-\[
+```text
 R =
-\begin{bmatrix}
-\frac{5}{\sqrt{5}} & \frac{4}{\sqrt{5}} \\
-0 & \frac{3}{\sqrt{5}}
-\end{bmatrix}
-\]
+[5/√5   4/√5
+ 0      3/√5]
+```
 
 ---
 
@@ -202,11 +150,9 @@ print(hasil)
 ```
 
 Hasil menunjukkan bahwa:
-
-\[
-A = Q \cdot R
-\]
-
+```text
+A = Q · R
+```
 berhasil menghasilkan matriks awal.
 
 ---
