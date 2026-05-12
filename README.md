@@ -1,9 +1,9 @@
 # Tugas-QR-Decomposition-Matriks-2x2-dengan-Python
 ```
-### Yogi dwi ramadani
-### 250411100198
-### Teknik Informatika
-### KAL 2A
+- Yogi dwi ramadani
+- 250411100198
+- Teknik Informatika
+- KAL 2A
 ```
 ## Deskripsi
 
