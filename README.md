@@ -7,15 +7,13 @@ Project ini membahas implementasi **QR Decomposition** pada matriks 2x2 mengguna
 
 QR Decomposition adalah metode dalam aljabar linear untuk memecah suatu matriks menjadi:
 ```
-\[
-A = Q \cdot R
-\]
+A=Q⋅R
 ```
 dengan:
-
-- **Q** = matriks ortogonal
-- **R** = matriks segitiga atas
-
+```
+- Q = matriks ortogonal
+- R = matriks segitiga atas
+```
 ---
 
 # Google Colab
@@ -23,7 +21,7 @@ dengan:
 Link Google Colab:
 
 ```txt
-https://colab.research.google.com/
+[https://colab.research.google.com/](https://colab.research.google.com/drive/1Vbmj4clRE1zzrZ2_ugG8FVDETWxaNfVC?usp=sharing)
 ```
 
 ---
@@ -32,25 +30,33 @@ https://colab.research.google.com/
 
 Matriks yang digunakan:
 
-\[
+```
 A =
-\begin{bmatrix}
-2 & 1 \\
-1 & 2
-\end{bmatrix}
-\]
-
+[2  1
+ 1  2]
+```
 ---
 
 # Langkah 1 — Membentuk Vektor \(a_1\)
 
-\[
-a_1 =
-\begin{bmatrix}
-2 \\
+Vektor kolom:
+
+a
 1
-\end{bmatrix}
-\]
+	​
+
+=[
+2
+1
+	​
+
+]a
+2
+	​
+
+=[
+1
+2]
 
 Panjang vektor:
 
