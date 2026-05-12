@@ -6,11 +6,11 @@
 Project ini membahas implementasi **QR Decomposition** pada matriks 2x2 menggunakan bahasa pemrograman Python.
 
 QR Decomposition adalah metode dalam aljabar linear untuk memecah suatu matriks menjadi:
-
+```
 \[
 A = Q \cdot R
 \]
-
+```
 dengan:
 
 - **Q** = matriks ortogonal
